@@ -1,0 +1,44 @@
+body {display: flex; flex-direction: column; align-items: center; margin: 0;}
+h1 {font-size: 20px; font-weight: 300; font-family: 'Poppins', sans-serif;}
+h2 {font-size: 15px; font-weight: 300; font-family: 'Poppins', sans-serif;;}
+.logo img{width: 100%;}
+a {text-decoration: none; color: #000;}
+a:hover {color: #fff; }
+.anamenu a {display: flex; flex-direction: row; flex-wrap: nowrap; align-items: center; color: #fff;}
+.anamenu {border: solid 3px #000; width: 600px; text-align: center; margin: 0 0 15px; border-radius: 5px; display: flex; justify-content: center; background-color: #000;}
+.anamenu:hover {background-color: #fff; }
+.anamenu:hover h1 {color: #000;}
+.anamenu:hover a {color: #000;}
+.icerik {display: flex; flex-direction: column; align-items: center; border: dashed 1px #000; width: 700px; padding: 30px; margin: 0 0 15px;}
+.icerik img {width: 50%;}
+.icerik h2 {font-size: 25px; text-align: left;}
+.icerik p {font-size: 15px; text-align: left; font-family: 'Poppins', sans-serif;}
+.fiyat {color: red; font-size: 30px; font-weight: 800;}
+.menu{position: relative; padding-top: 10px; padding-bottom: 50px; display: flex; flex-direction: column; flex-wrap: nowrap; align-items: center; width: 100%;}
+.menu1 {border: solid 3px #000; width: 600px; text-align: center; margin: 0 0 15px; border-radius: 5px;}
+.menu1:hover {background-color: #000;}
+.menu2 {border: solid 3px #000; width: 600px; text-align: center; margin: 0 0 15px; border-radius: 5px;}
+.menu2:hover {background-color: #000;}
+.menu3 {border: solid 3px #000; width: 600px; text-align: center; margin: 0 0 15px; border-radius: 5px;}
+.menu3:hover {background-color: #000;}
+.menu4 {border: solid 3px #000; width: 600px; text-align: center; margin: 0 0 15px; border-radius: 5px;}
+.menu4:hover {background-color: #000;}
+footer {background-color: #333; width: 100%; height: 250px; display: flex; flex-direction: column; align-items: center;}
+footer .social_icon {position: relative;display: flex;justify-content: center;align-items: center;margin: 10px 0;}
+footer .social_icon li{list-style: none;}
+footer .social_icon li a{font-size: 2em;color: #fff;margin:  0 10px;display: inline-block;transition: 0.5s;}
+footer .social_icon li a:hover{transform:  translateY(-10px);}
+footer .yer h2 {color: #fff; text-align: center;}
+
+@media only screen and (max-width: 1000px) {
+
+    .menu1 {width: 75%;}
+    .menu2 {width: 75%;}
+    .menu3 {width: 75%;}
+    .menu4 {width: 75%;}
+    .anamenu{width: 75%;}
+    h1 {font-size: 13px;}
+    .altmenu {display: flex; flex-direction: column; align-items: center;}
+    .icerik {width: 75%;}
+
+}
